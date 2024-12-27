@@ -1,3 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
 img {
   max-width: 100px;
 }
+
+body {
+  font-family: "Vollkorn", Georgia;
+  zoom: 0.7;
+}
+
+/* Grid Geral */
+.estrutura {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 1fr 300px;
+}
+
+/* tinha um erro da minha parte, pois a div estrutura está fechada antes */
