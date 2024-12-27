@@ -8,6 +8,8 @@
 
 img {
   max-width: 100%;
+  display: block;
+  border-radius: 6px;
 }
 
 body {
@@ -87,10 +89,22 @@ body {
 
   .anuncios {
     grid-area: anuncios;
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 1.875rem;
+    gap: 1.875rem;
   }
 
   .footer {
     grid-area: footer;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+
+    p {
+      color: white;
+      text-align: center;
+      padding: 1.875rem;
+    }
   }
 }
 
